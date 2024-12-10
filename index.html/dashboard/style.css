@@ -36,6 +36,7 @@ body{
     outline: none;
     background-color: transparent;
 }
+
 .container .topo .perfil{
     display: flex;
     align-items: center;
@@ -205,4 +206,71 @@ color: rgb(16, 16, 241);
 #quatro .esquerda .icone{
 background-color: rgb(172, 223, 228);
 color: rgb(80, 140, 146);
+}
+.container .content .main-content .content-tabela{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.container .content .main-content .content-tabela table{
+    width: 100%;
+    border: 1px solid #9d9b9b;
+    border-radius: 8px;
+    background-color: white;
+    border-collapse: collapse;
+    overflow: hidden;
+}
+.container .content .main-content .content-tabela table thead{
+    background-color: #d7d7d7;
+    color: #7b7b7b;  
+    height: 30px;
+    font-size: 12px;
+    
+}
+.container .content .main-content .content-tabela table thead th{
+    text-align: left;
+    padding-left: 5px;
+}
+
+.container .content .main-content .content-tabela table tbody{
+    font-size: 12px;
+    color: #323232;
+
+}
+.container .content .main-content .content-tabela table tbody tr{
+    border: 1px solid #949494;
+
+}
+.container .content .main-content .content-tabela table tbody tr td .cliente{
+    line-height: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.container .content .main-content .content-tabela table tbody tr td .status{
+    width: 60px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+
+}
+#aprovado{
+    background-color: rgb(87, 230, 87);
+    color: green;
+    
+}
+#negado{
+    background-color: rgb(207, 103, 103);
+    color: red ;
+}
+#pendente{
+    background-color: rgb(244, 147, 112);
+    color: orangered;
 }

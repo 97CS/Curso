@@ -86,3 +86,21 @@ body {
     font-size: 14px;
     color: black;
 }
+
+
+
+
+@media (max-width: 640px){
+  .container .esquerda{
+    display: none;
+
+  }
+  .container .direita{
+    width: 100%;
+  }
+  .container .direita .card{
+    width: 70%;
+    min-width: 0;
+  }
+
+}
